@@ -8,3 +8,4 @@ systemctl daemon-reload
 sleep 2
 service docker restart
 echo -n "..docker restarted"
+sudo ln -s /opt/PhpStorm-183.4284.150/bin/phpstorm.sh /home/ubuntu/Scrivania/phpstorm.sh
